@@ -9,6 +9,6 @@ public class HelloTest {
 
     @Test
     public void test() {
-
+        new Hello().print();
     }
 }
