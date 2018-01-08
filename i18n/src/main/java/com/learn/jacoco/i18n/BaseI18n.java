@@ -9,9 +9,9 @@ class BaseI18n {
 
     private static final String BASE_NAME = "mess";
 
-    static String get(String locale, String key, boolean isPkgLevel, boolean isClassLevel, Class<?> clazz) {
+    static String get(String locale, String key, boolean isPkgLevel, boolean appendClsName, Class<?> clazz) {
         String baseName = getBaseName(isPkgLevel, clazz);
-        String propKey = getPropKey(key, isClassLevel, clazz);
+        String propKey = getPropKey(key, appendClsName, clazz);
         return ResourceBundle.getBundle(baseName, LocaleMapper.getLocale(locale)).getString(propKey);
     }
 
