@@ -1,6 +1,6 @@
-package com.learn.jacoco.another;
+package com.learn.i18n.another;
 
-import com.learn.jacoco.i18n.ClsI18n;
+import com.learn.i18n.i18n.ClsI18n;
 
 /**
  * @author zhangfb

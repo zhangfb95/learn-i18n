@@ -1,4 +1,4 @@
-package com.learn.jacoco.i18n;
+package com.learn.i18n.i18n;
 
 /**
  * @author zhangfb

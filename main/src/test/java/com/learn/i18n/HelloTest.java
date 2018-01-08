@@ -1,4 +1,4 @@
-package com.learn.jacoco;
+package com.learn.i18n;
 
 import org.junit.Test;
 
